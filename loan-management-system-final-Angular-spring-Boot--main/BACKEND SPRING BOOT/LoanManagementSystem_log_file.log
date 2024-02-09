@@ -1,0 +1,160 @@
+2024-02-04T20:24:09.600+05:30  INFO 18920 --- [main] c.h.l.LoanManagementSystemApplication    : Starting LoanManagementSystemApplication using Java 17.0.8.1 with PID 18920 (C:\Projects\loan-management-system-final-Angular-spring-Boot--main (2)\loan-management-system-final-Angular-spring-Boot--main\BACKEND SPRING BOOT\target\classes started by ANIKET in C:\Projects\loan-management-system-final-Angular-spring-Boot--main (2)\loan-management-system-final-Angular-spring-Boot--main\BACKEND SPRING BOOT)
+2024-02-04T20:24:09.606+05:30  INFO 18920 --- [main] c.h.l.LoanManagementSystemApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-04T20:24:10.177+05:30  INFO 18920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-04T20:24:10.229+05:30  INFO 18920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 6 JPA repository interfaces.
+2024-02-04T20:24:10.630+05:30  INFO 18920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8485 (http)
+2024-02-04T20:24:10.638+05:30  INFO 18920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-04T20:24:10.639+05:30  INFO 18920 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-02-04T20:24:10.725+05:30  INFO 18920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-04T20:24:10.725+05:30  INFO 18920 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1084 ms
+2024-02-04T20:24:10.844+05:30  INFO 18920 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-04T20:24:10.895+05:30  INFO 18920 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-02-04T20:24:11.037+05:30  WARN 18920 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-02-04T20:24:11.131+05:30  INFO 18920 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-04T20:24:11.382+05:30  INFO 18920 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bd3ca3c
+2024-02-04T20:24:11.384+05:30  INFO 18920 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-04T20:24:11.444+05:30  INFO 18920 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-02-04T20:24:12.743+05:30  INFO 18920 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-04T20:24:12.751+05:30  INFO 18920 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-04T20:24:13.269+05:30  WARN 18920 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-04T20:24:13.496+05:30  INFO 18920 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@289b7efe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34ac72c3, org.springframework.security.web.context.SecurityContextHolderFilter@700596f9, org.springframework.security.web.header.HeaderWriterFilter@73796ae5, org.springframework.web.filter.CorsFilter@6cd8c373, org.springframework.security.web.authentication.logout.LogoutFilter@702e21c, com.hexaware.loanmanagementsystem.filter.JwtAuthFilter@9d2c0ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33293b34, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68a1bb31, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@449f9628, org.springframework.security.web.session.SessionManagementFilter@2c4eda3a, org.springframework.security.web.access.ExceptionTranslationFilter@27563444, org.springframework.security.web.access.intercept.AuthorizationFilter@42bbd21c]
+2024-02-04T20:24:13.747+05:30  INFO 18920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8485 (http) with context path ''
+2024-02-04T20:24:13.754+05:30  INFO 18920 --- [main] c.h.l.LoanManagementSystemApplication    : Started LoanManagementSystemApplication in 4.488 seconds (process running for 5.09)
+2024-02-04T20:26:13.084+05:30  INFO 18920 --- [http-nio-8485-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-04T20:26:13.084+05:30  INFO 18920 --- [http-nio-8485-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-04T20:26:13.089+05:30  INFO 18920 --- [http-nio-8485-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-02-04T20:26:13.924+05:30  INFO 18920 --- [http-nio-8485-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 456 ms
+2024-02-04T20:28:56.602+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.AdminDetailsServiceImp     : Admin Service Implementation -added Admin data into database successfully 
+2024-02-04T20:30:05.923+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Generating token for username: AniketTheAdmin
+2024-02-04T20:30:05.923+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Creating token for username: AniketTheAdmin
+2024-02-04T20:30:05.945+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.r.LoginRestController              : Admin login successful for username: AniketTheAdmin
+2024-02-04T20:33:04.788+05:30  INFO 18920 --- [http-nio-8485-exec-1] c.h.l.service.JwtService                 : Generating token for username: Acube
+2024-02-04T20:33:04.788+05:30  INFO 18920 --- [http-nio-8485-exec-1] c.h.l.service.JwtService                 : Creating token for username: Acube
+2024-02-04T20:33:04.794+05:30  INFO 18920 --- [http-nio-8485-exec-1] c.h.l.r.LoginRestController              : Customer login successful for username: Acube
+2024-02-04T20:33:41.411+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:33:41.412+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:33:41.456+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:33:41.456+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:33:41.456+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:33:41.456+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:33:41.456+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:34:12.804+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:34:12.804+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:34:12.813+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:34:12.813+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:34:12.815+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:34:12.816+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:34:12.816+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:34:22.536+05:30  INFO 18920 --- [http-nio-8485-exec-3] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:34:22.537+05:30  INFO 18920 --- [http-nio-8485-exec-3] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:34:22.548+05:30  INFO 18920 --- [http-nio-8485-exec-3] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:34:22.548+05:30  INFO 18920 --- [http-nio-8485-exec-3] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:34:22.548+05:30  INFO 18920 --- [http-nio-8485-exec-3] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:34:22.548+05:30  INFO 18920 --- [http-nio-8485-exec-3] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:34:22.548+05:30  INFO 18920 --- [http-nio-8485-exec-3] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:34:34.906+05:30  INFO 18920 --- [http-nio-8485-exec-4] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:34:34.907+05:30  INFO 18920 --- [http-nio-8485-exec-4] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:34:34.912+05:30  INFO 18920 --- [http-nio-8485-exec-4] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:34:34.913+05:30  INFO 18920 --- [http-nio-8485-exec-4] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:34:34.914+05:30  INFO 18920 --- [http-nio-8485-exec-4] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:34:34.914+05:30  INFO 18920 --- [http-nio-8485-exec-4] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:34:34.914+05:30  INFO 18920 --- [http-nio-8485-exec-4] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:34:47.778+05:30  INFO 18920 --- [http-nio-8485-exec-7] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:34:47.779+05:30  INFO 18920 --- [http-nio-8485-exec-7] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:34:47.785+05:30  INFO 18920 --- [http-nio-8485-exec-7] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:34:47.785+05:30  INFO 18920 --- [http-nio-8485-exec-7] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:34:47.785+05:30  INFO 18920 --- [http-nio-8485-exec-7] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:34:47.785+05:30  INFO 18920 --- [http-nio-8485-exec-7] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:34:47.785+05:30  INFO 18920 --- [http-nio-8485-exec-7] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:34.014+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Generating token for username: AniketTheAdmin
+2024-02-04T20:35:34.014+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Creating token for username: AniketTheAdmin
+2024-02-04T20:35:34.019+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.r.LoginRestController              : Admin login successful for username: AniketTheAdmin
+2024-02-04T20:35:41.118+05:30  INFO 18920 --- [http-nio-8485-exec-3] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:41.118+05:30  INFO 18920 --- [http-nio-8485-exec-3] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:41.120+05:30  INFO 18920 --- [http-nio-8485-exec-3] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:41.120+05:30  INFO 18920 --- [http-nio-8485-exec-3] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:41.124+05:30  INFO 18920 --- [http-nio-8485-exec-3] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:35:41.124+05:30  INFO 18920 --- [http-nio-8485-exec-3] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:35:41.124+05:30  INFO 18920 --- [http-nio-8485-exec-3] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:43.645+05:30  INFO 18920 --- [http-nio-8485-exec-4] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:43.645+05:30  INFO 18920 --- [http-nio-8485-exec-4] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:43.647+05:30  INFO 18920 --- [http-nio-8485-exec-4] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:43.647+05:30  INFO 18920 --- [http-nio-8485-exec-4] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:43.647+05:30  INFO 18920 --- [http-nio-8485-exec-4] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:35:43.647+05:30  INFO 18920 --- [http-nio-8485-exec-4] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:35:43.647+05:30  INFO 18920 --- [http-nio-8485-exec-4] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:46.847+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:46.847+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:46.848+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:46.848+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:46.848+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:35:46.848+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:35:46.848+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:47.826+05:30  INFO 18920 --- [http-nio-8485-exec-7] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:47.826+05:30  INFO 18920 --- [http-nio-8485-exec-7] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:47.832+05:30  INFO 18920 --- [http-nio-8485-exec-7] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:47.833+05:30  INFO 18920 --- [http-nio-8485-exec-7] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:47.834+05:30  INFO 18920 --- [http-nio-8485-exec-7] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:35:47.834+05:30  INFO 18920 --- [http-nio-8485-exec-7] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:35:47.834+05:30  INFO 18920 --- [http-nio-8485-exec-7] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:49.045+05:30  INFO 18920 --- [http-nio-8485-exec-9] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:49.045+05:30  INFO 18920 --- [http-nio-8485-exec-9] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:49.048+05:30  INFO 18920 --- [http-nio-8485-exec-9] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:49.048+05:30  INFO 18920 --- [http-nio-8485-exec-9] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:49.050+05:30  INFO 18920 --- [http-nio-8485-exec-9] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:35:49.050+05:30  INFO 18920 --- [http-nio-8485-exec-9] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:35:49.050+05:30  INFO 18920 --- [http-nio-8485-exec-9] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:51.723+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:51.723+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:51.728+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:51.730+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:51.730+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:35:51.730+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:35:51.730+05:30  INFO 18920 --- [http-nio-8485-exec-2] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:53.035+05:30  INFO 18920 --- [http-nio-8485-exec-10] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:53.035+05:30  INFO 18920 --- [http-nio-8485-exec-10] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:53.041+05:30  INFO 18920 --- [http-nio-8485-exec-10] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:53.042+05:30  INFO 18920 --- [http-nio-8485-exec-10] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:53.042+05:30  INFO 18920 --- [http-nio-8485-exec-10] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:35:53.042+05:30  INFO 18920 --- [http-nio-8485-exec-10] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:35:53.042+05:30  INFO 18920 --- [http-nio-8485-exec-10] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:55.569+05:30  INFO 18920 --- [http-nio-8485-exec-5] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:55.569+05:30  INFO 18920 --- [http-nio-8485-exec-5] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:55.576+05:30  INFO 18920 --- [http-nio-8485-exec-5] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:55.576+05:30  INFO 18920 --- [http-nio-8485-exec-5] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:55.576+05:30  INFO 18920 --- [http-nio-8485-exec-5] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:35:55.576+05:30  INFO 18920 --- [http-nio-8485-exec-5] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:35:55.576+05:30  INFO 18920 --- [http-nio-8485-exec-5] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:56.521+05:30  INFO 18920 --- [http-nio-8485-exec-1] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:56.521+05:30  INFO 18920 --- [http-nio-8485-exec-1] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:56.528+05:30  INFO 18920 --- [http-nio-8485-exec-1] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:35:56.528+05:30  INFO 18920 --- [http-nio-8485-exec-1] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:35:56.529+05:30  INFO 18920 --- [http-nio-8485-exec-1] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:35:56.529+05:30  INFO 18920 --- [http-nio-8485-exec-1] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:35:56.529+05:30  INFO 18920 --- [http-nio-8485-exec-1] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:36:16.479+05:30  INFO 18920 --- [http-nio-8485-exec-6] c.h.l.service.JwtService                 : Generating token for username: Acube
+2024-02-04T20:36:16.479+05:30  INFO 18920 --- [http-nio-8485-exec-6] c.h.l.service.JwtService                 : Creating token for username: Acube
+2024-02-04T20:36:16.479+05:30  INFO 18920 --- [http-nio-8485-exec-6] c.h.l.r.LoginRestController              : Customer login successful for username: Acube
+2024-02-04T20:36:23.429+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:36:23.429+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:36:23.432+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting username from token
+2024-02-04T20:36:23.432+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:36:23.432+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Checking if token is expired
+2024-02-04T20:36:23.432+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting expiration from token
+2024-02-04T20:36:23.432+05:30  INFO 18920 --- [http-nio-8485-exec-8] c.h.l.service.JwtService                 : Extracting all claims from token
+2024-02-04T20:36:37.381+05:30  INFO 18920 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-04T20:36:37.395+05:30  INFO 18920 --- [RMI TCP Connection(16)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-04T20:36:37.396+05:30  INFO 18920 --- [RMI TCP Connection(16)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-02-04T20:36:37.399+05:30  WARN 18920 --- [RMI TCP Connection(16)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.8.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.8.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+2024-02-04T20:36:37.405+05:30  INFO 18920 --- [RMI TCP Connection(16)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-04T20:36:37.407+05:30  INFO 18920 --- [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-04T20:36:37.415+05:30  INFO 18920 --- [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
